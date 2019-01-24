@@ -28,7 +28,7 @@ namespace IterativeStatement
                     //Here is the For loop
                     for(int i = 1; i <= value_entered; i++)
                     {
-                        for (int o = 1; o <= value_entered; value_entered--)
+                        for (int o = 1; o <= value_entered; value_entered--,i++)
                         {
                             Console.WriteLine("You have entered" + " " + value_entered.ToString() + ".This is the current integer value in the loop: " + i.ToString()+".");
                         }
